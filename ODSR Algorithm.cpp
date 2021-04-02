@@ -3,7 +3,7 @@ using namespace std;
 class conn                                             // class used to bind all func() together
 {
     public:
-	        static const int no_of_nodes=6;           // Here : no_of_nodes assumed to be 4
+	        static const int no_of_nodes=6;           // Here : no_of_nodes assumed to be 6
 			int arcn[no_of_nodes][no_of_nodes],brcn[no_of_nodes][no_of_nodes],b1[no_of_nodes][no_of_nodes],b2[no_of_nodes][no_of_nodes];
 	        int path[50];
 	        int c,a=1,h=999,i,j,l,com=0;                      // initial initializations
