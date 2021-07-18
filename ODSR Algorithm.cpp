@@ -163,8 +163,8 @@ int main()
 {
 	conn obj;
 	obj.addnodecn(0,2,1,5);  // addnodecn( src, dst, break-less-link, link-weight )
-    obj.addnodecn(0,1,1,4);
-    obj.addnodecn(2,3,1,1);
+        obj.addnodecn(0,1,1,4);
+        obj.addnodecn(2,3,1,1);
 	obj.addnodecn(3,4,1,2);
 	obj.addnodecn(3,5,1,6);
 	obj.addnodecn(5,4,1,7);
